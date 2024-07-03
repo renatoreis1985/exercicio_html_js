@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio-html-js</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                Exercício Módulo 7
+            </h1>
+            <nav>
+                <ul>
+                    <li>Renato Pinheiro dos Reis</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="form">
+        <div class="container">
+            <form id="formNumber">
+                <h2>
+                    Informe nos campos A e B os números para serem validados!
+                </h2>
+                <label for="campo-A">Campo A</label>
+                <input id="campoA" type="number" required placeholder="Digite o valor de A">
+                <label for="campo-B">Campo B</label>
+                <input id="campoB" type="number" required placeholder="Digite o valor de B" >
+                <button type="submit" id="envio">Validar</button>
+            </form>
+            <p class="mensagenVeradeiro"></p>
+            <p class="mensagenFalso"></p>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace
+}
+
+header{
+    padding: 16px 0;
+    background-color: rgb(45, 12, 110);
+    color: #fff;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+body{
+    color: #000000;
+    background-color: #fff;
+}
+
+section.form{
+    margin-top: 12%;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+form input,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button{
+    background-color: rgb(178, 199, 255);
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(54, 141, 255);
+}
+
+input:focus{
+    outline-color:rgb(0, 0, 0); ;
+}
+
+.mensagenVeradeiro{
+    color: #000000;
+    background-color: rgb(255, 251, 0);
+    display: none;
+    padding: 16px;
+
+}
+
+.mensagenFalso{
+    padding: 16px;
+    background-color: red;
+    color: #000000;
+    display: none;
+}
